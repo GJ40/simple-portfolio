@@ -22,11 +22,10 @@ A modern, responsive, and functional personal portfolio website built using **Re
 ```
 my-portfolio/
 ├── public/
-│   ├── index.html
-│   ├── resume.pdf
-│   └── assets/
-│       └── profile.jpg, project.jpg
 ├── src/
+│   └── assets/
+|       ├── resume.pdf
+│       └── profile.jpg, project.jpg
 │   ├── components/
 │   │   ├── Navbar.jsx
 │   │   └── Footer.jsx
@@ -63,7 +62,7 @@ Follow these steps to run the project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/GJ40/portfolio.git
+git clone https://github.com/GJ40/simple-portfolio.git
 cd my-portfolio
 ```
 
