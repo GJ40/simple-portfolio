@@ -4,18 +4,18 @@ import projectImg2 from '../assets/project2.png';
 
 const projects = [
     {
-        title: 'Product Store: MERN Stack CRUD Application',
+        title: 'MERN Stack CRUD Application',
         description: 'Developed a Full-Stack MERN project which showcase basic CRUD operations with database and responsive User Interface using ChakraUI.',
         image: projectImg1,
-        repository: "https://github.com/GJ40/product-store",
+        repository: "",
         livelink: "",
     },
     {
-        title: 'Heart Failure Survivor Predictor',
-        description: 'Developed a ML app using streamlit which uses ML Model to predict survivalibilty of patient with heart-condition.',
+        title: 'ML Project',
+        description: 'Developed a ML app using streamlit.',
         image: projectImg2,
         repository: "",
-        livelink: "https://heart-failure-survival-predictor-utfxrtng2bizauj8a7t9cb.streamlit.app/",
+        livelink: "",
     },
 ];
 
