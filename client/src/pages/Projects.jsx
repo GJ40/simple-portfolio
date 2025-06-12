@@ -32,8 +32,8 @@ const Projects = () => {
                         }
                         <h3 className="text-2xl font-semibold mt-4">{project.title}</h3>
                         <p className="text-gray-600 dark:text-gray-300 mt-2">{project.description}</p>
-                        <span className='text-xl mt-2 flex justify-center items-center space-x-4 p-2 m-2 hover:bg-gray-700 rounded'><ion-icon name="logo-github"></ion-icon><a href={`${project.repository}`}>GitHub Repo</a></span>
-                        <span className='text-xl mt-2 flex justify-center items-center space-x-4 p-2 m-2 hover:bg-gray-700 rounded'><ion-icon name="link"></ion-icon><a href={`${project.livelink}`}>Live Link</a></span>
+                        <a href={`${project.repository}`}><p className='text-xl mt-2 flex justify-center items-center space-x-4 p-2 m-2 hover:bg-gray-700 rounded'><ion-icon name="logo-github"></ion-icon><span className='ml-2'>GitHub Repo</span></p></a>
+                        <a href={`${project.livelink}`}><p className='text-xl mt-2 flex justify-center items-center space-x-4 p-2 m-2 hover:bg-gray-700 rounded'><ion-icon name="link"></ion-icon><span className='ml-2'>Live Link</span></p></a>
                     </div>
                 ))}
             </div>
