@@ -4,7 +4,7 @@ import projectImg2 from '../assets/project2.png';
 
 const projects = [
     {
-        title: 'MERN Stack CRUD Application',
+        title: 'MEAN Stack CRUD Application',
         description: 'Developed a Full-Stack MERN project which showcase basic CRUD operations with database and responsive User Interface using ChakraUI.',
         image: projectImg1,
         repository: "",
