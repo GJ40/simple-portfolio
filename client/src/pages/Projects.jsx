@@ -26,7 +26,10 @@ const Projects = () => {
             <div className="grid sm:grid-cols-2 gap-10">
                 {projects.map((project, idx) => (
                     <div key={idx} className="bg-white dark:bg-gray-800 p-4 shadow rounded-lg">
-                        <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded" />
+                        {
+                            project.livelink ? <iframe src={project.livelink} alt={project.title} className="w-full h-48 object-cover rounded" />
+                                : <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded" />
+                        }
                         <h3 className="text-2xl font-semibold mt-4">{project.title}</h3>
                         <p className="text-gray-600 dark:text-gray-300 mt-2">{project.description}</p>
                         <span className='text-xl mt-2 flex justify-center items-center space-x-4 p-2 m-2 hover:bg-gray-700 rounded'><ion-icon name="logo-github"></ion-icon><a href={`${project.repository}`}>GitHub Repo</a></span>
